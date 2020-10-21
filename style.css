@@ -1,0 +1,255 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #264653;
+}
+
+
+
+/*START OF NAV*/
+.navbar {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #264653;
+	
+}
+
+.nav-link:hover {
+	background-color: gray;
+	transition: .5s;
+	color: black;
+}
+
+/*START OF HEADER*/
+
+#header {
+	min-height: 100vh; 
+	background-image: url('../images/header4.gif');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#header h1 {
+	font-size: 4rem;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffc93c;
+	font-weight: 900;
+	text-shadow: 2px 2px #ff0000;
+}
+
+#header h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 2rem;
+	color: white;
+	text-shadow: 1px 1px #ff0000;
+	letter-spacing: 1px;
+}
+
+
+
+
+/*END OF HEADER*/
+
+/*START OF ABOUT*/
+#about {
+	min-height: 100vh; 
+	background-color: #264653;
+}
+
+#about h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffc93c;
+	text-shadow: 1px 1px #ff0000;
+	letter-spacing: 2px;
+}
+
+#about p {
+	font-family: 'Lato', sans-serif;
+	color: white;
+
+}
+
+#about img {
+	
+	border-radius: 50%;
+	height: 13rem;
+	width: auto;
+}
+
+
+/*END OF ABOUT*/
+
+#table th, td {
+	color: white;
+}
+
+#task {
+	min-height: 100vh;
+}
+
+#task h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffc93c;
+	text-shadow: 1px 1px #ff0000;
+	letter-spacing: 2px;
+	margin-top: 100px;
+}
+
+#task h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffc93c;
+	text-shadow: 1px 1px #ff0000;
+	letter-spacing: 2px;
+}
+
+
+#task img {
+	border-radius: 20%;
+	height: 500px;
+	width: 500px;
+	margin-top: 50px;
+}
+
+#task p {
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+#task ul li {
+	color: white;
+}
+
+
+#about h1{
+	margin-top: 80px;
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+	color: #ffc93c;
+	text-shadow: 3px 3px #ff0000;
+
+}
+
+#list li {
+	color: white;
+}
+
+
+/*START OF FOOTER*/
+.footer {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #264653;
+	color: white;
+
+}
+
+.footer i {
+	font-size: 2rem;
+	color: white;
+}
+
+.footer i:hover {
+	transform: rotate(360deg);
+	transition: .5s;
+	color: yellow;
+}
+
+#social-media .fab {
+	font-size: 1.5rem;
+}
+/*END OF FOOTER*/
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+
+	/*START OF HEADER*/
+	#header h1 {
+		font-size: 3rem;
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		font-weight: 900;
+		text-shadow: 3px 3px #ff0000;
+	}
+
+	#header p {
+		font-family: 'Lato', sans-serif;
+		font-size: 1.5rem;
+		color: white;
+		text-shadow: 2px 2px #ff0000;
+		letter-spacing: 1px;
+	}
+
+	#hire-btn {
+		width: 100%;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		letter-spacing: 1px;
+		border-radius: 0;
+	}
+
+	#project-btn {
+		font-family: 'Montserrat', sans-serif;
+		width: 100%;
+		border-radius: 0;
+		font-weight: 500;
+		letter-spacing: 1px;
+	}
+	/*END OF HEADER*/
+
+	/*START OF ABOUT*/
+	#about h1 {
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		text-shadow: 2px 2px #ff0000;
+		letter-spacing: 2px;
+		font-size: 1.5rem;
+	}
+
+	#about p {
+		font-family: 'Lato', sans-serif;
+		color: white;
+		font-size: 1rem;
+
+	}
+
+	/*END OF ABOUT*/
+
+	
+	#task h1 {
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		text-shadow: 1px 1px #ff0000;
+		letter-spacing: 2px;
+		font-size: 1.5rem;
+	}
+
+	#task img {
+		height: 7rem;
+		width: 7rem;
+	}
+
+	#task p {
+		color: white;
+		font-family: 'Lato', sans-serif;
+		font-size: 1rem;
+	}
+
+
+	
+	
+
+
+}

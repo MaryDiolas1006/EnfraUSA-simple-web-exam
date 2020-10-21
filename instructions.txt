@@ -1,0 +1,21 @@
+1. Create an HTML file by pasting the contents of "RawText.doc" into NoteTab and saving as "TestArticleyourname.html". Leave the Word document open as reference, since formatting will not be carried over.
+
+2. Article title should be in <div class="title"> tags - remove "Title: " from the beginning of the line.
+
+3. Author should be in <h4> tags - remove "Author: " from the beginning of the line.
+
+4. Code all paragraphs in <p> tags and for any headers (which are bolded in the Word doc), use <h3> tags.
+
+5. There are three reference citations in the first paragraph. Please place each numbered bracket ("[2]" for example)  in a <sup type="ref"> tag. 
+
+6. Code table to look as similar as possible to how it looks in Word doc. Please place the table title in a bolded paragraph. In the table tag, please use class inline_data_table". 
+
+7. Include image where indicated and center it. Place the title in a bolded paragraph above the image. The caption below the image should be placed in a blockquote with "Caption: " deleted.
+
+8. Code the bulleted text as an unordered list. 
+
+9. Where indicated, place a link at the end of the article and make it open in a new window.
+
+10. Code the references as an ordered list.
+
+
